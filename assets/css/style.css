@@ -22,7 +22,7 @@ body {
   clear: both;   /* clear any extraneous floats */
 }
 
-h1, h2, p {
+h1, h2, p, #sub-header {
   margin-bottom: 20px;  /* default spacing after each header and paragraph */
 }
 
@@ -41,6 +41,11 @@ h1 {
   line-height: 49px;
   /* light border after primary header */
   border-bottom: 3px solid #dddddd;
+}
+
+#sub-header {
+  border-bottom: 3px solid #dddddd;
+  padding-bottom: 20px;
 }
 
 /* font sizes for secondary headers */
