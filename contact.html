@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Maura Slavin</title>
+  
+  <!-- style sheet for About Maura (index) and Contact pages only -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<!-- my name and nav bar again -->
+  <header class="myHeader">
+    <div class="container clearfix">
+      <a href="index.html" class="myName">Maura M. Slavin</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- prompt for name, email and message; and submit button -->
+  <div class="container">
+    <section class="main-section">
+      <h1>I'd love to hear from you!</h1>
+
+      <form id="contact-form">
+        <ul>
+          <!-- prompt for name -->
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <!-- prompt for email -->
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <!-- prompt for message -->
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <!-- submit button -->
+        <input type="submit">
+      </form>
+
+    </section>
+
+  </div>
+
+  <!-- footer, again -->
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
+</html>
