@@ -94,6 +94,10 @@ h1 {
   background: #2220b4;
 }
 
+.myName:hover {
+  color: black;
+}
+
 nav {
   margin-top: 25px;
   float: right;
